@@ -3,7 +3,7 @@ import numpy as np
 import statsmodels.stats.inter_rater as irr
 
 # Load the data from the Excel file
-file_path = 'C:/Users/amish/OneDrive/Desktop/inter-rater agreement/uber_ground_truth.xlsx'  # Update this to the correct path
+file_path = 'C:/Users/amish/OneDrive/Desktop/inter-rater agreement/uber_ground_truth.xlsx'  
   
 data = pd.read_excel(file_path, sheet_name='whatsapp')
 
